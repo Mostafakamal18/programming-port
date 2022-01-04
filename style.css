@@ -40,3 +40,33 @@ h1{
      background-repeat: no-repeat;
      background-position: right;
  } 
+ .experiance-area{
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     }
+ 
+ .experiance-Item{
+    width: 50%  ;
+    padding-left: 5%;
+    margin-left: 0;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px rgb(31, 32, 27);
+    border-radius: 5%;
+ }
+ #full-dev-exp{
+     border-left: 5px solid;
+     border-image: linear-gradient(blue, cyan);
+     border-image-slice: 1;
+
+ }
+ #web-dev-expe{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+
+
+ }
+ footer p{
+     text-align: center;
+ }
